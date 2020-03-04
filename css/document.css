@@ -1,0 +1,57 @@
+/*common section*/
+@import url("./Roboto/Roboto-Regular.ttf");
+body{
+  font-family: Roboto;
+  margin:0 auto;
+  margin-top:100px;
+  background-color: rgb(127, 127, 253);
+}
+
+.imag{
+    width:fit-content;
+}
+
+h1{
+    font-size: 36px;
+    color:red;
+}
+
+h2{
+    font-size:24px;
+    color:red;
+}
+
+/*my section*/
+#vicky h2{
+    display:inline-block;
+    padding: 5px 10px 15px 20px;
+    border-width:5px 10px 15px 20px;
+    border-style: solid;
+    border-color:green;
+   
+}
+
+#vicky{
+    background-color: bisque;
+}
+
+/*friend section*/
+#harsha{
+    background-color:bisque;
+}
+
+#frndimage{
+    display:block;
+}
+
+#harsha h1{
+    border:1px solid black;
+    display:inline-block;
+}
+
+#harsha h2{
+    border:1px solid black;
+    display:inline-block;
+    border:none;
+    border-bottom: 3px solid blue;
+}
